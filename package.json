@@ -10,12 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duvabh/coderhouse_proyectos.git"
+    "url": "git+https://github.com/duvabh/coderHouse_ProyectoFinal.git"
   },
   "author": "Duvan Palacio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/duvabh/coderhouse_proyectos/issues"
   },
-  "homepage": "https://github.com/duvabh/coderhouse_proyectos#readme"
+  "homepage": "https://github.com/duvabh/coderhouse_proyectos#readme",
+  "keywords": [],
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
 }

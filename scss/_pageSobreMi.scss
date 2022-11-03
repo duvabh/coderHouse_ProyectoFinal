@@ -1,1 +1,63 @@
 //S o b r e - m i
+.contenido {
+    p {
+        font: 20px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        span {
+            color: #1CB698;
+            font-weight: bold;
+        }
+    }
+}
+
+.seccion {
+    .filas{
+        display: flex;
+        .columnas {
+            width: 50%;
+            h3 {
+                font-size: 20px;
+                font-family: 'Righteous';
+                margin-bottom: 30px;
+            }
+            ul {
+                list-style: none;
+                li {
+                    margin: 12px 0;
+                    strong {
+                        display: inline-block;
+                        color: #1CB698;
+                        width: 130px;
+                    }
+                }
+                
+            }
+            .sobremi_intereses {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .interes {
+                    width: 100px;
+                    height: 100px;
+                    background-color: #252a2e;
+                    border-radius: 10px;
+                    margin: 0.3rem 0.3rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    transition: .3s;
+                    &:hover {
+                        background-color: #1CB698;
+                    }
+                    i{
+                        font-size: 30px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
