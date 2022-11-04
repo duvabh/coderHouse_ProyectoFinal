@@ -1,0 +1,89 @@
+@import './keyframesSkill';
+
+.contenido{
+    .fila{
+        display: flex;
+        .columna {
+            width: 50%;
+            padding: 0 20px;
+            .skill_tecnica {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .skills{
+                    width: 150px;
+                    height: 150px;
+                    background-color: #252a2e;
+                    border-radius: 10px;
+                    margin: 0.3rem 0.3rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    transition: .3s;
+                    &:hover{
+                        background-color: #1CB698;
+                    }
+                }
+            }
+        }
+    }
+    .skill {
+        > span {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .barra_skill {
+            height: 8px;
+            width: 80%;
+            background-color: #131517;
+            position: relative;
+           margin-bottom: 30px;
+           span {
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            background-color: #1CB698;
+            border-radius: 50px;
+            line-height: 40px;
+            text-align: center;
+            top: -15px;
+            right: -20px;
+            font-size: 15px;
+           }
+        } 
+        .progreso {
+            background-color: #1CB698;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 8px;
+        }
+        .comunicacion {
+            width: 0%;
+            animation: 2s comunicacion forwards;
+        }
+        .trabajo {
+            width: 0%;
+            animation: 2s trabajo forwards;
+        }
+        .dedicacion {
+            width: 0%;
+            animation: 2s dedicacion forwards;
+        }
+        .responsabilidad {
+            width: 0%;
+            animation: 2s responsabilidad forwards;
+        }
+        .puntualidad {
+            width: 0%;
+            animation: 2s puntualidad forwards;
+        }
+    }   
+    .skill_tecnica {
+        img {
+            width: 70px;
+        }
+    }
+}
