@@ -447,7 +447,8 @@ main {
 
 @media screen and (max-width: 700px) {
   .contenido .filas {
-    display: block; }
+    display: block;
+    margin: 1rem auto; }
   .contenido .filas .columnas {
     width: fit-content; }
   .contenido .fila {
