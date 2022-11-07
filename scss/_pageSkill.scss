@@ -1,7 +1,9 @@
-@import './keyframesSkill';
-
 .contenido{
+    h3 {
+        text-align: center;
+    }
     .fila{
+        grid-area: fila;
         display: flex;
         .columna {
             width: 50%;
@@ -15,7 +17,7 @@
                     height: 150px;
                     background-color: #252a2e;
                     border-radius: 10px;
-                    margin: 0.3rem 0.3rem;
+                    margin: 1rem 0.3rem;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -39,7 +41,7 @@
             width: 80%;
             background-color: #131517;
             position: relative;
-           margin-bottom: 30px;
+            margin-bottom: 30px;
            span {
             position: absolute;
             height: 40px;
@@ -87,3 +89,4 @@
         }
     }
 }
+@import './keyframesSkill';

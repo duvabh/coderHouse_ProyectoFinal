@@ -1,30 +1,35 @@
-@media screen and (max-width:980px){
-    nav {
-        display: none;
-    }
+//Desktop firts
+@media screen and (max-width:1200px){
 
-    .header_nav_responsive {
-        display: block;
-    }
-    nav.responsive {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #252a2e;
-        width: 180px;
-    }
-    nav.responsive ul{
-        display: block !important;
-    }
-
-    nav.responsive ul li {
-        border-bottom: 1px solid #1CB698;
-        padding: 10px 0;
-    }
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:885px) {
+        nav {
+         display: none;
+     }
+
+    .header_nav_responsive {
+         display: block;
+    }
+     nav.responsive {
+         display: block;
+         position: absolute;
+         right: 0;
+         top: 75px;
+         background-color: #252a2e;
+        width: 180px;
+    }
+     nav.responsive ul{
+       display: block !important;
+   }
+
+    nav.responsive ul li {
+         border-bottom: 1px solid #1CB698;
+         padding: 10px 0;
+   }
+}
+
+@media only screen and (max-width:540px) {
     .contenido .filas {
         display: block;
         margin: 1rem auto;
@@ -65,4 +70,239 @@
     .contenido .fila .col {
         width: 100%;
     }
+}
+
+
+@media only screen and (max-width:320px) {    
+    .contenido .filas {
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .contenido h2 {
+        font-size: 40px;
+        font-family: 'Righteous';
+        text-align: center;
+        padding: 20px 0;
+
+    }
+
+    .inicio .banner .redesSociales a {
+        margin: 3px 2px;
+        width: 44px;
+        height: 44px;
+        line-height: 46px;
+    }
+
+    .contenido .filas .columnas {
+        width: fit-content;
+    }
+
+    .contenido .fila {
+        display: block;
+    }
+
+    .contenido .filas .columna {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .contenido .fila .columna .barra_skill{
+        width: 100%;
+    }
+
+
+    .contenido .fila{
+        display: block;
+    }
+
+    .contenido .fila .columna {
+        width: 130%;
+    }
+
+    .contenido .fila .columna .skill_tecnica {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenido .fila .columna .skill_tecnica .skills {
+        width: 100px;
+        height: 100px;
+        margin: 8px;
+    }
+
+    .contenido .fila .derecha {
+        margin-left: 20px;
+    }
+
+    .contenido .fila {
+        display: block;
+    }
+
+    .contenido .fila .col {
+        width: 100%;
+    }
+    
+    .contenido .fila {
+        width: 75%;
+        padding: 0;
+    }
+   
+    .footerSociales {
+        padding: 5px;
+        margin-top: 1px;
+    }
+}
+
+//first mobile
+@media only screen and (min-width:320px) {
+    .contenido .filas {
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .contenido h2 {
+        font-size: 40px;
+        font-family: 'Righteous';
+        text-align: center;
+        padding: 20px 0;
+
+    }
+
+    .inicio .banner .redesSociales a {
+        margin: 3px 2px;
+        width: 44px;
+        height: 44px;
+        line-height: 46px;
+    }
+
+    .contenido .filas .columnas {
+        width: fit-content;
+    }
+
+    .contenido .fila {
+        display: block;
+    }
+
+    .contenido .filas .columna {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .contenido .fila .columna .barra_skill{
+        width: 100%;
+    }
+
+
+    .contenido .fila{
+        display: block;
+    }
+
+    .contenido .fila .columna {
+        width: 130%;
+    }
+
+    .contenido .fila .columna .skill_tecnica {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenido .fila .columna .skill_tecnica .skills {
+        width: 100px;
+        height: 100px;
+        margin: 8px;
+    }
+
+    .contenido .fila .derecha {
+        margin-left: 20px;
+    }
+
+    .contenido .fila {
+        display: block;
+    }
+
+    .contenido .fila .col {
+        width: 100%;
+    }
+    
+    .contenido .fila {
+        width: 75%;
+        padding: 0;
+    }
+   
+    .footerSociales {
+        padding: 5px;
+        margin-top: 1px;
+    }
+}
+
+@media only screen and (min-width:540px) {
+    .contenido .filas {
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .contenido .filas .columnas {
+        width: fit-content;
+    }
+
+    .contenido .fila {
+        display: block;
+    }
+
+    .contenido .fila .columna {
+        width: 100%;
+    }
+
+    .contenido .fila .columna .barra_skill{
+        width: 100%;
+    }
+
+    .contenido .fila{
+        display: block;
+    }
+
+    .contenido .fila .columna {
+        width: 90%;
+    }
+
+    .contenido .fila .derecha {
+        margin-left: 20px;
+    }
+
+    .contenido .fila {
+        display: block;
+    }
+
+    .contenido .fila .col {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:885px) {
+    nav {
+     display: none;
+ }
+
+.header_nav_responsive {
+     display: block;
+}
+ nav.responsive {
+     display: block;
+     position: absolute;
+     right: 0;
+     top: 75px;
+     background-color: #252a2e;
+    width: 180px;
+}
+ nav.responsive ul{
+   display: block !important;
+}
+
+nav.responsive ul li {
+     border-bottom: 1px solid #1CB698;
+     padding: 10px 0;
+}
 }

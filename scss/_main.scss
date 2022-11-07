@@ -1,22 +1,27 @@
 main{
-    background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(30, 35, 38, 0.1)),
-    url(../assets/img/back_black.jpg);
-    background-size: cover;
-    height: 100%;
+    grid-area: main;
     color: #fff;
-    display: flex;
     align-items: center;
     .seccion{
         background-color: #1e2326;
         color: #fff;
-        padding: 50px 20px;
+        padding: 20px;
+        padding-bottom: 3rem;
         max-width: 1100px;
-        margin: auto;
+        margin: 7rem auto 1rem;
     }
 }
 
 .contenido {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    grid-template-rows: .3fr repeat(2 1fr) .2fr;
+    grid-template-areas: "h2 h2"
+                        "p1 p1"
+                        "fila fila"
+                        "buttom buttom";
     h2{
+        grid-area: h2;
         font-size: 65px;
         font-family: 'Righteous';
         text-align: center;

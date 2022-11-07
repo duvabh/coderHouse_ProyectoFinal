@@ -1,15 +1,13 @@
-#content {
-    .seccion {
-        max-width: 1100px;
-        margin: 140px auto;
-        background-color: #1e2326;}
-    }.contenido {    
+.seccion {background-color: #1e2326;}
+    .contenido {    
         .fila {
+            grid-area: fila;
             display: flex;
         }
         .col {
+            margin: 1.4rem;
             width: 50%;
-            padding: 10px;
+            padding-bottom: 1.5rem;
             position: relative;
             input, textarea{
                     display: block;
@@ -58,15 +56,8 @@
             color: #fff;
             position: relative;
             z-index: 10;
-            .overlay {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 0;
-                height: 100%;
+            &:hover{
                 background-color: #1CB698;
-                z-index: -1;
-                transition: 1s;
             }
         }
     }
