@@ -8,6 +8,13 @@
 body {
     width: 100vw;
     height: 100vh;
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgba(30, 35, 38, 0.1)),
+    url(../assets/img/back_black.jpg);
+    background-size: cover;
     display: grid;
-    grid-template-rows: repeat(4 1fr);
+    grid-template-rows: .4fr 4fr .4fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
 }
